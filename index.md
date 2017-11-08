@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub
 
-You can use the [editor on GitHub](https://github.com/Visionchen/visionchen/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+暂时还没有主页,过段时间一起commit吧
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+嗯,嗯,[个人项目介绍访问](https://visionchen.github.io/visionchen/project/index.html).   
+=_=!   暂时有点粗糙,这只是先放着
 
 ### Markdown
 
@@ -34,4 +35,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
