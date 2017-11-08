@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信小程序</title>
+    <style>
+        ul,li{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            color:cornflowerblue;
+            display: block;
+            text-align: center;
+        }
+        li{
+            list-style: none;
+        }
+        #demo1{
+            width: 100%;
+        }
+        #demo1 li{
+            margin-bottom: 100px;
+        }
+        #demo1 h1{
+            text-indent: 20px;
+        }
+        #demo1 div{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px 100px;
+        }
+        #demo1 div img{
+            width: 100%;
+            border: 2px solid #999;
+        }
+    </style>
+</head>
+<body>
+<ul id="demo1">
+
+</ul>
+<a href="visualization.html" title="可视化">跳到可视化项目详情</a>
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+    (function ($) {
+        var list=[
+            {
+                title:"1、配置",
+                img:"img/img1.png"
+            }, {
+                title:"2、全局变量",
+                img:"img/img2.png"
+            },
+            {
+                title:"3、全局样式",
+                img:"img/img3.png"
+            },
+            {
+                title:"4、页面标签",
+                img:"img/img4.png"
+            },
+            {
+                title:"5、页面样式",
+                img:"img/img5.png"
+            },
+            {
+                title:"6、页面配置",
+                img:"img/img6.png"
+            },
+            {
+                title:"7、页面逻辑",
+                img:"img/img7.png"
+            },
+            {
+                title:"8、自定义方法",
+                img:"img/img8.png"
+            },
+            {
+                title:"9、设备适配",
+                img:"img/img9.png"
+            },
+            {
+                title:"10、场景值和页面参数",
+                img:"img/img10.png"
+            },
+            {
+                title:"11、模拟网络",
+                img:"img/img11.png"
+            },
+            {
+                title:"12、正在调试的页面",
+                img:"img/img12.png"
+            },
+            {
+                title:"13、页面调试",
+                img:"img/img13.png"
+            },
+            {
+                title:"14、项目",
+                img:"img/img14.png"
+            },
+            {
+                title:"15、微信小程序更新",
+                img:"img/img15.png"
+            },
+        ]
+        $(list).each(function () {
+            $("#demo1").append('<li><h1>'+this.title+'</h1><div><img src="'+this.img+'" alt=""></div></li>')
+        })
+
+    })(jQuery)
+</script>
+</html>
